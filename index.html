@@ -1,26 +1,61 @@
 <!HTDOCS html>
 <html lang="es">
 	<head>
-		<meta charset="utf-8">
-		<title></title>
+		<meta charset="utf-8" />
+		<meta description="Mejorndo.la web es una innovadora plataforma de aprendizaje on-line!" />
+		<title>Pulse 2014, El mejor sitio donde los guapos y sexies estamos!</title>
 	</head>
 	<body>
 		<header>
-			<h1>Mejorando.la web en vivo!</h1>
-			<h2>La web de maner divertida!</h2>
+			<figure id="logo">
+				<img src="resources/logo.png" />
+			</figure>
+			<h1>Puls 2014: Comunidad de personas atractivas y sexy</h1>
+			<figure>
+				<img src="resources/avatar.jpg" />
+			</figure>
 		</header>
-		<section>
-			<article>
-				<video id="mejorandola" width="640" height="320" controls>
-					<source src="video.mp4 type=video/mp4; codecs='avc1,mp4a'" />
-					<source src="video.webm type=video/webm codecs='vp8,vorbis'" />
-				</video>
+		<nav>
+			<ul>
+				<li><a href="#">Python</a></li>
+				<li><a href="#">Html5</a></li>
+				<li><a href="#">JavaScript</a></li>
+				<li><a href="#">CSS3</a></li>
+				<li><a href="#">Django</a></li>
+				<li id="publicar_nav"><a href="#">Publicar</a></li>
+			</ul>
+		</nav>
+		<section id="contenido">
+			<article class="item">
+				<figure clss="imagen_item">
+				<img src="resources/imagen.jpg" />
+				</figure>
+				<h2 class="titulo_item">
+					<a href="#">Titulo del articulo</a>
+				</h2>
+				<div class="autor_item">
+					Por <a href="#">Joana Muñoz</a>
+				</div>
+				<div class="datos_item">
+					<a href="#">Pony</a>
+					<span class="fecha_item">
+						Hace <strong>5</strong> min
+					</span>
+					<a href="#" class="comentarios_item">Pony</a>
+					<a href="#" class="">Pony</a>
+				</div>
+				<div class="votacion">
+					<a href="#" class="up"></a>
+					720
+					<a href="#" class="down"></a>
+				</div>
 			</article>
 				<aside></aside>
 			<article></article>
 		</section>
 		<footer>
-			Con @freddier y @cvander
+			<p>Powered by Merino Ingenieria</p>
+			<p>Merino | Ingenieria 2014</p>
 		</footer>
 	</body>
 </html>
